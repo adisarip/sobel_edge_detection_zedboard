@@ -5,9 +5,12 @@ Source Tree:
 ============
 
 sobel_edge_detection_zedboard
-├── README.md
+├── README.txt
 ├── report
-│   └── Sobel_Edge_Detection_on_Xillinx_ZedBoard_FPGA.pdf
+│   ├── hand_written
+│   │   └── Sobel_Edge_Detection_on_Xillinx_ZedBoard_FPGA_HW.pdf
+│   └── soft_copy
+│       └── Sobel_Edge_Detection_on_Xillinx_ZedBoard_FPGA.pdf
 ├── src
 │   ├── opencv_standalone
 │   │   └── opencv_sed_test.cpp
@@ -27,5 +30,4 @@ sobel_edge_detection_zedboard
 │   └── zynq_full_system_block_design.pdf
 └── xillybus_custom_core
     └── xillybus_ip_core_for_sed.pdf
-
 
